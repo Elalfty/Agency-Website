@@ -174,7 +174,7 @@ nav ul li a:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px 0px 120px;
+    padding: 20px 0px 80px;
 }
 .services-container{
     max-width: 90vw;
@@ -553,15 +553,17 @@ footer .footer-icons i:hover{
     position: fixed;
     right: 50px;
     bottom: 95px;
-    background:transparent;
-    border: 2px solid  #191716;
-    color:  #191716;
+    background:#e6af2e;
+    border: 2px solid  #e6af2e;
+    color:  #e0e2db;
     outline: none;
     cursor: pointer;
-    transition: background 2.5s;
+    transition: all 1.5s;
 }
 #scrolltop:hover{
-    background: #e6af2e;
+    background: #191716;
+    border-color: #191716;
+    color: #e6af2e
 }
 #scrolltop i{
     font-size: 30px;
